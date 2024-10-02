@@ -1,0 +1,68 @@
+export async function seed(knex) {
+  await knex('users').insert([
+    {
+      auth0_id: 'auth0|6478f3fd75374ee3d7bc4d94',
+      email: 'jared@example.com',
+      first_name: 'Jared',
+      last_name: 'Pinfold',
+      nickname: 'DestroyOrbison',
+      public: true,
+    },
+    {
+      auth0_id: 'auth0|648fd1c873375442becf2c60',
+      email: 'daph@example.com',
+      first_name: 'Daph',
+      last_name: 'Simons',
+      nickname: 'daphattack',
+      public: true,
+    },
+    {
+      auth0_id: 'auth0|649024f773375442becf3102',
+      email: 'prue@example.com',
+      first_name: 'Prue',
+      last_name: 'Singh',
+      nickname: 'GertrudeDiamond',
+      public: true,
+    },
+    {
+      auth0_id: 'auth0|6490255b0c2119ef3db1e4aa',
+      email: 'hannah@example.com',
+      first_name: 'Hannah',
+      last_name: 'Burgoyne',
+      nickname: 'Xx~hannah_banana~xX',
+      public: true,
+    },
+    {
+      auth0_id: 'auth0|649025b96ef896963ad50b3f',
+      email: 'rich@example.com',
+      first_name: 'Rich',
+      last_name: 'Hape',
+      nickname: 'MadBones',
+      public: true,
+    },
+    {
+      auth0_id: 'auth0|660378edb31104047fb75156',
+      email: 'harakeke24@example.com',
+      first_name: 'Moderator',
+      last_name: 'Harakeke24',
+      nickname: 'Mod',
+      public: false,
+    },
+    {
+      auth0_id: 'auth0|xxx123',
+      email: 'ahmad@example.com',
+      first_name: 'Ahmad',
+      last_name: 'Anwar',
+      nickname: 'lambda',
+      public: true,
+    },
+    {
+      auth0_id: 'auth0|foo123',
+      email: 'gaby@example.com',
+      first_name: 'Gaby',
+      last_name: 'Perez',
+      nickname: 'GADstack',
+      public: true,
+    },
+  ])
+}

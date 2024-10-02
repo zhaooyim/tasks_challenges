@@ -1,0 +1,16 @@
+{
+  "name": "server-fs-demo",
+  "version": "1.0.0",
+  "description": "## Demo red/write file",
+  "main": "read-write.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dev Academy Aotearoa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

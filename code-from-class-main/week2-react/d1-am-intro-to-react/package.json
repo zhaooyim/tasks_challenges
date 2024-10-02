@@ -1,0 +1,52 @@
+{
+  "name": "intro-to-react",
+  "version": "1.0.0",
+  "description": "a demo to introduce students to React during lecture",
+  "main": "server/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "test": "vitest",
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
+  },
+  "eslintConfig": {
+    "extends": "@devacademy/eslint-config/react",
+    "ignorePatterns": [
+      "bundle.js"
+    ]
+  },
+  "author": "Dev Academy Aotearoa",
+  "license": "ISC",
+  "devDependencies": {
+    "@devacademy/eslint-config": "^1.9.1",
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.2.1",
+    "esbuild": "^0.19.2",
+    "eslint": "^8.10.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "nodemon": "^2.0.15",
+    "tsx": "^3.12.7",
+    "vite": "^5.0.0",
+    "vitest": "^0.33.0"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.2.0",
+    "run-p": "^0.0.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "browserslist": "> 2%, not dead"
+}

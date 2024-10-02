@@ -1,0 +1,25 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "Setting up our first web server with express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "vitest"
+  },
+  "author": "DAA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "supertest": "^6.3.3",
+    "vitest": "^0.34.6"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
+}

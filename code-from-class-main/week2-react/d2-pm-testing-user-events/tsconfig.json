@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "target": "es2020",
+    "jsx": "react-jsx",
+    "module": "ES2020",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true
+  }
+}

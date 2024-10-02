@@ -1,0 +1,42 @@
+body {
+  background-color: #faf8f1;
+  color: #0a1520;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: 0.7em;
+  width: 100%;
+}
+
+header{
+  font-family: Creepster;
+  text-align: center;
+}
+
+.home{
+  border-radius: 20px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around; */
+  background-color: aliceblue;
+  padding: 100px;
+  margin: 20px;
+  /* text-align: center; */
+}
+
+.monster-img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 90px;  
+  transform: rotate(-20deg);
+  transition: transform 0.2s ease
+}
+
+.monster-img:hover {
+  transform: rotate(-40deg);
+}

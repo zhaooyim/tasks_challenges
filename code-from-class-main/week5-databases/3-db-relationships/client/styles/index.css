@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table,
+th,
+td {
+  border: 1px solid;
+  padding: 1rem;
+}
+
+body {
+  background-image: url('../images/cooper.png');
+  object-fit: cover;
+}

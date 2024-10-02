@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Twiggy",
+    "owner": "Tina",
+    "image": "/images/stick_insect1.jpg",
+    "species": "Phasmatodea"
+  },
+  {
+    "id": 2,
+    "name": "Camouflage",
+    "owner": "Caleb",
+    "image": "/images/stick_insect2.jpg",
+    "species": "Phasmatodea"
+  },
+  {
+    "id": 3,
+    "name": "Branch",
+    "owner": "Becky",
+    "image": "/images/stick_insect3.jpg",
+    "species": "Phasmatodea"
+  },
+  {
+    "id": 4,
+    "name": "Willow",
+    "owner": "Wendy",
+    "image": "/images/stick_insect4.jpg",
+    "species": "Phasmatodea"
+  },
+  {
+    "id": 5,
+    "name": "Thorny",
+    "owner": "Thomas",
+    "image": "/images/stick_insect5.jpg",
+    "species": "Phasmatodea"
+  },
+  {
+    "id": 6,
+    "name": "Slim",
+    "owner": "Samantha",
+    "image": "/images/stick_insect6.jpg",
+    "species": "Phasmatodea"
+  },
+  {
+    "id": 7,
+    "name": "Twiglet",
+    "owner": "Tyler",
+    "image": "/images/stick_insect7.jpg",
+    "species": "Phasmatodea"
+  },
+  null,
+  null,
+  null,
+  {
+    "name": "Harry"
+  }
+]

@@ -1,0 +1,21 @@
+{
+	"name": "rendering-logic",
+	"version": "0.1.0",
+	"description": "Adding logic to the rendering of a component",
+	"repository": "https://github.com/dev-academy-programme/video-lectures.git",
+	"main": "server.js",
+	"scripts": {
+		"dev": "vite"
+	},
+	"keywords": [],
+	"author": "EDA",
+	"license": "ISC",
+	"devDependencies": {
+		"@vitejs/plugin-react": "^4.0.0",
+		"vite": "^4.3.8"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}

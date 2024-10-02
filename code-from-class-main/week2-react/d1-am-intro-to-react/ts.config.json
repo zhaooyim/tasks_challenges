@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", 
+    "jsx": "react-jsx", 
+    "types": ["vite/client"],
+
+    "module": "ES2020" ,
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true ,
+    "allowJs": true,
+
+    "strict": true,
+    "noEmit": true
+  }
+}

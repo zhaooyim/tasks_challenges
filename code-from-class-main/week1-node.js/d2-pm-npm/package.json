@@ -1,0 +1,24 @@
+{
+  "name": "cowsay-is-the-best",
+  "version": "1.0.0",
+  "description": "Good example for showing how to use npm, .gitignore, package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "npm",
+    "cowsay",
+    "gitignore"
+  ],
+  "author": "Daph",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}

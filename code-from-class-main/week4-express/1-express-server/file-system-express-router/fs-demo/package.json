@@ -1,0 +1,12 @@
+{
+  "name": "fs-demo",
+  "version": "1.0.0",
+  "description": "## Demo red/write file",
+  "main": "read-write.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dev Academy Aotearoa",
+  "license": "ISC"
+}
